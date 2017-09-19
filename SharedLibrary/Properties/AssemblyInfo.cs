@@ -34,3 +34,6 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+// Specify that our internals are visible to one test project only
+[assembly: InternalsVisibleTo("TestProjectWithInternalsVisible")]
